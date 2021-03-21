@@ -4,10 +4,10 @@ export default {
   //   base: '/mohamed_sayagh/'
   // },
   // server: {
-    // port: 5000
+  // port: 5000
   // },
   target: 'static',
-  router: { base: '/mohamed_sayagh_simo/' },
+  router: { base: '/mohamed_sayagh/' },
   head: {
     titre: 'mohamed_sayagh',
     meta: [
