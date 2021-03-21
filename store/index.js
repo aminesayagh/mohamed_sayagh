@@ -16,6 +16,14 @@ const database = () => {
                         // genti de ne pas touchi (non ne le pense meme pas je te voie faire) (tu pense toujour c'est normal t'est men frere aller fait le et pleurent apres )
                         state: true,
                         menuMobileState: false,
+                        head: {
+                              title: 'DR.Mohamed SAYAGH',
+                              meta: [{
+                                    hid: 'site for DR.Mohamed SAYAGH',
+                                    name: 'description',
+                                    content: 'My custom description'
+                              }]
+                        },
                         pagePrincipal: {
                               title: 'main page',
                         },

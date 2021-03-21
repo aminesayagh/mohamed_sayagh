@@ -14,6 +14,23 @@ export default {
     mainSection,
     secondeSection,
   },
+  data() {
+    return {
+      title: this.$store.getters.GET_MAINTENANCE
+    }
+  },
+  head() {
+    return {
+      title: this.title.head.title,
+      meta: [
+        {
+          hid: this.title.head.meta[0].hid,
+          name: this.title.head.meta[0].name,
+          content: this.title.head.meta[0].content,
+        },
+      ]
+    }
+  },
   computed: {
     active() {
       return this.$store.getters.GET_MAINTENANCE;
