@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.673" height="57.864" viewBox="0 0 36.673 57.864">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="36.673" height="57.864" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-path)">
+    <g id="Illustration_3" data-name="Illustration 3" transform="translate(0)">
+      <g id="Illustration_3-2" data-name="Illustration 3">
+        <path id="Tracé_1" data-name="Tracé 1" d="M137.693,4.894l11.3,31.037-7.759,2.824,2.082,5.722,13.481-4.907L145.5,8.533l2.038-.742,2.824,7.759,5.686-2.07L151.138,0Z" transform="translate(-120.121)" fill="#002ea5"/>
+        <path id="Tracé_2" data-name="Tracé 2" d="M15.461,167.842,0,173.47l10.555,29,5.722-2.082L7.8,177.109l1.98-.721,5.648,15.519,5.722-2.082-5.648-15.519,2.038-.742,2.824,7.759,5.722-2.082L21.183,165.76Z" transform="translate(0 -144.606)" fill="#002ea5"/>
+      </g>
+    </g>
+  </g>
+</svg>
