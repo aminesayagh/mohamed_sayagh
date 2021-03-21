@@ -17,7 +17,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/mohamed_logo.png' }
+      { rel: 'icon', type: 'image/png', sizes: "32x32", href: '/mohamed_logo-32x32.png' }
     ]
   },
 
