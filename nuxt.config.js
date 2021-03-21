@@ -7,6 +7,7 @@ export default {
     // port: 5000
   // },
   target: 'static',
+  router: { base: '/mohamed_sayagh_simo/' },
   head: {
     titre: 'mohamed_sayagh',
     meta: [
