@@ -6,6 +6,7 @@ export default {
   // server: {
     // port: 5000
   // },
+  target: 'static',
   head: {
     titre: 'mohamed_sayagh',
     meta: [
