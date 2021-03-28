@@ -7,6 +7,7 @@ const workshops = {
                         {
                               titre: "talks",
                               list: [
+                                    "CSER 2020 (New Faculty Talk): Supporting the Creation and Operation of Multi-component Systems",
                                     "CSER 2017: An Exploratory Study On Software Configuration - State Of The Art And Practice",
                                     "CSER 2017: On Cross-stack Configuration Errors",
                                     "CSER 2015: Multi-layer configuration errors – Empirical study on Wordpress"

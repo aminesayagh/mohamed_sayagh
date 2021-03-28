@@ -5,24 +5,53 @@ const teaching = {
                   paragraphe: [
                         [
                               {
+                                    titre: "Winter 2021:"
+                              },
+                              [
+                                    [
+                                          {
+                                                text: "Lecturer of the course:"
+                                          },
+                                          {
+                                                text: "LOG680: Intorduction to the DevOps approach",
+                                                link: "https://www.etsmtl.ca/etudes/cours/log680/",
+                                          },
+                                    ]
+                              ]
+                        ],
+                        [
+                              {
+                                    titre: "Fall 2019:"
+                              },
+                              [
+                                    [
+                                          {
+                                                text: "Lecturer of the course:"
+                                          },
+                                          {
+                                                text: "CISC 850: Engineering of Ultra-large-scale systems",
+                                                link: "https://sailhome.cs.queensu.ca/~msayagh/CISC_850_Engineering_ULSS_Fall_2019.html",
+                                          },
+                                    ]
+                              ]
+                        ],
+                        [
+                              {
                                     titre: "winter 2018:"
                               },
                               [
                                     [
                                           {
-                                                text: "Teacher of the courses:"
+                                                text: "Lecturer of the courses:"
                                           },
                                           {
-                                                text: "LOG1000",
-                                                link: "#",
+                                                text: "LOG1000: Introduction to Software Engineering",
+                                                link: "http://www.polymtl.ca/etudes/cours/details.php?sigle=log1000",
 
                                           },
                                           {
-                                                text: "and "
-                                          },
-                                          {
-                                                text: "INF3710",
-                                                link: "#",
+                                                text: "INF3710: Databases",
+                                                link: "http://www.polymtl.ca/etudes/cours/details.php?sigle=inf3710",
 
                                           },
                                     ]

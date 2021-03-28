@@ -47,39 +47,21 @@
         .containerElement{
           @apply col-start-1 lg:col-start-2 xl:col-start-2 col-span-12 lg:col-span-9 xl:col-span-10;
           @apply text-justify;
+
           h3 {
             @apply tracking-widest text-base;
           }
-          @media (min-width: 1280px){
-            h1{
-              font-size: 2.8em !important;
-            }
-          }
-          @media (min-width: 1024px){
-            h1{
-              font-size: 2rem !important;
-            }
-          }
-          @media (min-width: 768px){
-            h1{
-              font-size: 2.7rem !important;
-            }
-          }
-          @media (min-width: 536px){
-            h1{
-              font-size: 2.2rem !important;
-            }
-          }
           h1 {
-            line-height: 4.2rem !important;
+            @apply text-4xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-5xl;
+            line-height: 5rem !important;
             @apply -ml-6 md:-ml-10 truncate;
             width: 150%;
           }
           .content.paragraphe{
             @apply text-justify;
             *{
-              font-size: .95rem !important;
-              @apply leading-6 !important;
+              font-size: 1.1rem !important;
+              @apply leading-8 !important;
             }
           }
         }

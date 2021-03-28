@@ -59,7 +59,7 @@ const database = () => {
                         ],
                   },
                   main: {
-                        sousTitre: "postdoc in queen's university.",
+                        sousTitre: "ASSISTANT PROFESSOR AT ETS (QUÉBEC UNIVERSITY).",
                         titre: "mohammed sayagh",
                         image: {
                               link: "",
@@ -69,46 +69,52 @@ const database = () => {
                         email: "sayaghmohammed@gmail.com",
                         paragraphe: [
                               {
-                                    text: "I'm working as a PostDoc fellow in"
+                                    text: "I'm an assistant professor at Ecole Technologie Supérieur - Québec University. Before that, I was working as a PostDoc fellow in"
                               },
                               {
                                     text: "the Software Analysis and Intelligence Lab (SAIL)",
-                                    link: "#"
+                                    link: "https://sail.cs.queensu.ca/"
                               },
                               {
                                     text: "at"
                               },
                               {
                                     text: "Queen's University (Kingston, ON)",
-                                    link: "#"
+                                    link: "http://queensu.ca/"
                               },
                               {
-                                    text: "under the suppervision of "
+                                    text: "under the suppervision of"
                               },
                               {
-                                    text: "Prof. Ahmed E. Hassan.",
-                                    link: "#",
-                                    alt: ""
+                                    text: "Prof. Ahmed E. Hassan",
+                                    link: "http://research.cs.queensu.ca/home/ahmed/home/"
                               },
                               {
                                     text: "I obtained my Ph.D. from"
                               },
                               {
-                                    text: "the Maintenance, Construction, and Intellligence of Software lab (MCIS) Ecole Polytechnique (Montréal, QC).",
-                                    link: "#",
-                                    alt: ""
+                                    text: "the Maintenance, Construction, and Intellligence of Software lab (MCIS) ",
+                                    link: "http://mcis.cs.queensu.ca/"
                               },
                               {
-                                    text: "at , in which I was supervised by"
+                                    text: "at"
+                              },
+                              {
+                                    text: "Ecole Polytechnique (Montréal, QC)",
+                                    link: "http://polymtl.ca/"
+                              },
+                              {
+                                    text: "under the supervision of"
                               },
                               {
                                     text: "Prof. Bram Adams.",
-                                    link: "#",
+                                    link: "http://mcis.cs.queensu.ca/bram.html"
                               },
                               {
-                                    text: "I have a wide range of research interests but my focus is related to software variability and the engineering of large scale software systems. I have applied different empricial studies techniques to my research including qualitative and quantitative analysis, data mining, source code analysis. During my research, I mined different software repositories such as source code repositories, online forums (e.g., StackOverflow), and DockerHub."
-                              }
+                                    text: "I have a wide range of research interests that are related to software empirical studies. My main focus is related to software variability in multi-component softawre systems. I have applied different qualitative and quantitative empricial studies techniques to my research, such as mining software repositories (e.g., source code repositories, online forums, and DockerHub), source code analysis (e.g., Slicing), and machine learning."
+                              },
                         ]
+                        
                   },
             },
             modules: {

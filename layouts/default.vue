@@ -99,7 +99,7 @@ export default {
       @apply grid grid-cols-12 lg:grid-rows-1;
       @apply min-h-screen;
       .gridBlue {
-        @apply grid grid-cols-12 col-span-12 lg:col-span-5;
+        @apply grid grid-cols-12 col-span-12 lg:col-span-5 xl:col-span-4;
         .sousgridBlue {
           @apply grid col-span-full lg:col-span-9 grid-cols-12;
         }

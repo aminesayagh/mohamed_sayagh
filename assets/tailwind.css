@@ -21,7 +21,7 @@
   @apply text-lg leading-10 tracking-widest capitalize;
  }
  li{
-   @apply font-medium capitalize text-black_9;
+   @apply font-semibold tracking-widest capitalize text-black_9;
  }
  p, v-text{
   @apply tracking-widest text-black_3;
@@ -35,5 +35,4 @@
  a{
   @apply tracking-widest text-color_1;
  }
-
 }

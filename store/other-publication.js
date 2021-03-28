@@ -12,7 +12,7 @@ const other_publications = {
                                     link: "#"
                               },
                               {
-                                    text: ". ieee software blog, 2017"
+                                    text: ". IEEE software blog, 2017"
                               }
                         ]
                   ]
