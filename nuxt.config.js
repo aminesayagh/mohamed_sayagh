@@ -18,6 +18,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/png', sizes: "32x32", href: '/mohamed_logo-32x32.png' }
+    ],
+    script: [
+      { src: "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" },
+      { src: "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollToPlugin.min.js" }
     ]
   },
 
