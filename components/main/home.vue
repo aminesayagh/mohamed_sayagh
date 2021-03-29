@@ -19,6 +19,11 @@
                 | {{ main.text }}
               a(:href="main.link" v-else)
                 |  {{ main.text }} 
+          button.button
+            svg(id='demo', xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60")
+              rect(x="0", y="0", width="60", height="60", rx="30", ry="30" )
+              text(transform="translate(80 38)" text-anchor="middle" )
+                | Read More
           .vide-for-flex
 </template>
 
@@ -47,9 +52,8 @@
         .containerElement{
           @apply col-start-1 lg:col-start-2 xl:col-start-2 col-span-12 lg:col-span-9 xl:col-span-10;
           @apply text-justify;
-
           h3 {
-            @apply tracking-widest text-base;
+            @apply tracking-widest text-base text-black_1 text-opacity-60;
           }
           h1 {
             @apply text-4xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-5xl;
@@ -62,6 +66,12 @@
             *{
               font-size: 1.1rem !important;
               @apply leading-8 !important;
+            }
+          }
+          .button{
+            @apply fill-current text-color_2 text-opacity-70;
+            #demo {
+              @apply cursor-pointer overflow-visible;
             }
           }
         }
