@@ -114,7 +114,28 @@ const database = () => {
                                     text: "I have a wide range of research interests that are related to software empirical studies. My main focus is related to software variability in multi-component softawre systems. I have applied different qualitative and quantitative empricial studies techniques to my research, such as mining software repositories (e.g., source code repositories, online forums, and DockerHub), source code analysis (e.g., Slicing), and machine learning."
                               },
                         ]
-                        
+
+                  },
+                  notification: {
+                        state: true,
+                        yourNotificationList: [
+                              {
+                                    state: true,
+                                    date: {
+                                          day: '28',
+                                          month: '08',
+                                          year: '2022'
+                                    },
+                                    text: 'I am currently looking for motivated and hard working PhD and Masters students.',
+                                    button: [{
+                                          // J'ai fais en sorte que ca marche pour un seul bouton
+                                          // Je vais gerer pour deux bouton ou meme plus en cas de necessite
+                                          state: true,
+                                          buttonText: 'contact me',
+                                          buttonLink: 'mailto:sayaghmohammed@gmail.com'
+                                    },],
+                              },
+                        ]
                   },
             },
             modules: {
@@ -130,15 +151,22 @@ const database = () => {
             getters: {
                   GET_MAINTENANCE: (state, payload) => state.maintenance,
                   GET_MAIN: (state, payload) => state.main,
+                  GET_NOTIFICATION: (state, payload) => state.notification,
             },
             mutations: {
                   GET_MAINTENANCE: (state, payload) => {
                         state.maintenance = payload;
                   },
+                  GET_NOTIFICATION: (state, payload) => {
+                        state.notification = payload;
+                  },
             },
             actions: {
                   SET_MAINTENANCE: (context, payload) => {
                         context.commit("SET_MAINTENANCE", payload)
+                  },
+                  SET_NOTIFICATION: (context, payload) => {
+                        context.commit("SET_NOTIFICATION", payload)
                   },
             }
       })

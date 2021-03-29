@@ -1,6 +1,8 @@
 <template lang="pug">
   .page
-    .container-page.relative
+    .container-pop_up.z-50
+      pop_up
+    .container-page.z-20(class="md:relative")
       mainSection(v-if="active.state")
       secondeSection(v-else)
 </template>
@@ -8,11 +10,13 @@
 <script>
 import mainSection from "@/components/main/home.vue";
 import secondeSection from "@/components/content/mainContainer.vue";
+import pop_up from "@/components/uiElement/popupInfo.vue";
 
 export default {
   components:{
     mainSection,
     secondeSection,
+    pop_up
   },
   data() {
     return {

@@ -49,7 +49,7 @@ section.gridMain
     .gridWhite {
       @apply col-span-12 grid grid-cols-12 lg:col-span-7;
       > * {
-        @apply col-start-2 md:col-start-2 lg:col-start-2 col-span-9 md:col-span-9 lg:col-span-11;
+        @apply col-start-2 md:col-start-2 lg:col-start-2 xl:col-start-1 col-span-9 md:col-span-9 lg:col-span-11 xl:col-span-12;
       }
     }
   }
