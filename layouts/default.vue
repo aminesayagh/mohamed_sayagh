@@ -186,7 +186,7 @@ export default {
           .buttonSuivant {
             @apply fixed bottom-0 right-0;
             @apply px-6 py-8 flex flex-row items-center space-x-4;
-            @apply focus:ring-2 focus:ring-color_2 focus:ring-opacity-10 bg-color_2;
+            @apply focus:ring-2 focus:ring-color_2 focus:ring-opacity-70 bg-color_2;
             > * {
               @apply w-6 h-6 opacity-75;
             }

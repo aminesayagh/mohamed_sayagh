@@ -13,10 +13,9 @@ const database = () => {
       return new Vuex.Store({
             state: {
                   maintenance: {
-                        // genti de ne pas touchi (non ne le pense meme pas je te voie faire) (tu pense toujour c'est normal t'est men frere aller fait le et pleurent apres )
                         state: true,
                         menuMobileState: false,
-                        buttonNuxt: 'Next',
+                        buttonNuxt: 'Read more',
                         animation: {
                               state : false,
                         },

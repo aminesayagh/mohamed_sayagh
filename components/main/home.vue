@@ -19,12 +19,12 @@
                 | {{ main.text }}
               a(:href="main.link" v-else)
                 |  {{ main.text }} 
-          button.button
-            svg(id='demo', xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60")
-              rect(x="0", y="0", width="60", height="60", rx="30", ry="30" )
-              text(transform="translate(80 38)" text-anchor="middle" )
-                | Read More
-          .vide-for-flex
+          //- button.button
+          //-   svg(id='demo', xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60")
+          //-     rect(x="0", y="0", width="60", height="60", rx="30", ry="30" )
+          //-     text(transform="translate(80 38)" text-anchor="middle" )
+          //-       | Read More
+          //- .vide-for-flex
 </template>
 
 <style lang="less" scoped>
@@ -69,9 +69,13 @@
             }
           }
           .button{
-            @apply fill-current text-color_2 text-opacity-70;
+            @apply fill-current text-color_2 text-opacity-70 my-6;
             #demo {
-              @apply cursor-pointer overflow-visible;
+              @apply cursor-pointer overflow-visible ;
+              text{
+                @apply font-extrabold text-black_1 text-opacity-70 leading-7 pb-4 tracking-widest;
+                @apply focus:ring-2 focus:ring-color_2 bg-color_2;
+              }
             }
           }
         }
