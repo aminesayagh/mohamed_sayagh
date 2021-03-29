@@ -1,6 +1,6 @@
 <template lang="pug">
 .pop_up-container(v-if="notification.state")
-  .pop.content(
+  .pop.content.animation.direction_y.order8(
     v-for="(element_popup, index) in notification.yourNotificationList",
     v-if="element_popup.state",
     :key="index",

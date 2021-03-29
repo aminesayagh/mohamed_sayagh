@@ -8,12 +8,12 @@
               img(src="~/assets/image_mohammed.png" :alt="content.image.alt")
       .content.container
         .containerElement
-          h3
+          h3.animation.direction_y.order2
             | {{ content.sousTitre }}
-          h1
+          h1.animation.direction_y.order2
             | {{ content.titre }}
           .h-2
-          .content.paragraphe
+          .content.paragraphe.animation.direction_y.order2
             v-text(v-for="(main, index) in content.paragraphe" :key="index")
               v-text(v-if="!main.link")
                 | {{ main.text }}
