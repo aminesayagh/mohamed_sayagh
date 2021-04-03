@@ -36,7 +36,7 @@
           @apply text-black_1 text-opacity-50 text-xs !important;
         }
         .text {
-          @apply text-black_1 text-opacity-70 text-xs md:text-sm !important;
+          @apply text-black_1 text-opacity-70 text-xs md:text-sm max-xl:mb-1 !important;
         }
       }
       .button.content {
