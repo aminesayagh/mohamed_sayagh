@@ -36,12 +36,12 @@
           @apply text-black_1 text-opacity-50 text-xs md:my-2 !important;
         }
         .text {
-          @apply text-black_1 text-opacity-70 text-xs md:text-sm;
+          @apply text-black_1 text-opacity-70 text-xs md:text-sm !important;
         }
       }
       .button.content {
         .link {
-          @apply text-sm md:pb-2;
+          @apply text-sm md:pb-2 !important;
         }
       }
     }
