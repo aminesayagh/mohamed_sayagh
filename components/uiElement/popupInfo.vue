@@ -28,7 +28,7 @@
       @apply bg-black_11 bg-opacity-80 rounded-lg shadow-lg px-6 py-5 border-l-8 border-color_1 border-opacity-60;
       @apply flex flex-col md:flex-row justify-between items-end space-x-2;
       .text-content {
-        @apply flex flex-col items-start;
+        @apply flex md:flex-row xl:flex-col items-start;
         .date {
           @apply text-black_1 text-opacity-50 text-xs !important;
         }
