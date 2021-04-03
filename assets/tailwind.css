@@ -33,6 +33,6 @@
    @apply text-justify;
  }
  a{
-  @apply tracking-widest text-color_1;
+  @apply tracking-widest text-opacity-75 text-color_1 ;
  }
 }

@@ -61,11 +61,14 @@
             @apply -ml-6 md:-ml-10 truncate;
             width: 150%;
           }
+          @media (min-width:768px) and (max-width: 1280px) {
+            line-height: 2rem !important;
+          }
           .content.paragraphe{
             @apply text-justify;
             *{
               font-size: 1.1rem !important;
-              @apply leading-8 !important;
+              @apply leading-8 md:leading-4 xl:leading-8 !important;
             }
           }
           .button{
