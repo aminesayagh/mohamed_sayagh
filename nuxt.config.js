@@ -7,7 +7,7 @@ export default {
   // port: 5000
   // },
   target: 'static',
-  // router: { base: '/mohamed_sayagh/' },
+  router: { base: '/mohamed_sayagh/' },
   head: {
     titre: 'mohamed_sayagh',
     titleTemplate: 'Dr.MOHAMMED SAYAGH',
