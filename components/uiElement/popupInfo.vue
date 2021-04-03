@@ -33,7 +33,7 @@
       .text-content {
         @apply flex flex-col lg:flex-row 2xl:flex-col justify-center items-start lg:space-x-2 2xl:space-x-0;
         .date {
-          @apply text-black_1 text-opacity-50 text-xs md:my-2 !important;
+          @apply text-black_1 text-opacity-50 text-xs !important;
         }
         .text {
           @apply text-black_1 text-opacity-70 text-xs md:text-sm !important;
