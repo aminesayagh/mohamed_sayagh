@@ -30,18 +30,21 @@
       backdrop-filter: blur(15px);
       background-color: rgba(255, 255, 255, 0.85);
       @apply flex flex-col lg:flex-row justify-between items-end space-x-2;
+      .date ,.text,.link{
+        @apply text-xs ;
+      }
       .text-content {
         @apply flex flex-col lg:flex-row 2xl:flex-col justify-center items-start lg:space-x-2 2xl:space-x-0;
         .date {
-          @apply text-black_1 text-opacity-50 text-xs !important;
+          @apply text-black_1 text-opacity-50 !important;
         }
         .text {
-          @apply text-black_1 text-opacity-70 text-xs md:text-sm max-xl:mb-1 !important;
+          @apply text-black_1 text-opacity-70  !important;
         }
       }
       .button.content {
         .link {
-          @apply text-sm md:pb-2 xl:pb-0 !important;
+          @apply md:pb-2 xl:pb-0 !important;
         }
       }
     }
