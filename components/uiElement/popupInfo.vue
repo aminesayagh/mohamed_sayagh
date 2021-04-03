@@ -29,7 +29,7 @@
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(15px);
       background-color: rgba(255, 255, 255, 0.85);
-      @apply flex flex-col lg:flex-row justify-between items-end space-x-2;
+      @apply flex flex-col lg:flex-row justify-between items-center xl:items-end space-x-2;
       .date ,.text,.link{
         @apply text-xs !important;
       }
