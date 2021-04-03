@@ -1,0 +1,46 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="47.201"
+    height="74.477"
+    viewBox="0 0 47.201 74.477"
+  >
+    <a href="">
+      <g
+        id="Illustration_3"
+        data-name="Illustration 3"
+        transform="translate(0 0)"
+      >
+        <g id="Illustration_3-2" data-name="Illustration 3">
+          <path
+            id="Tracé_1"
+            data-name="Tracé 1"
+            d="M137.693,6.3l14.54,39.948-9.987,3.635,2.68,7.365,17.351-6.316-14.54-39.948,2.623-.955L154,20.015l7.318-2.664L155,0Z"
+            transform="translate(-115.076)"
+            fill="#edeef0"
+          />
+          <path
+            id="Tracé_2"
+            data-name="Tracé 2"
+            d="M19.9,168.44,0,175.683l13.585,37.326,7.365-2.68L10.045,180.367l2.549-.928,7.27,19.974,7.364-2.68-7.27-19.974,2.623-.955,3.635,9.987,7.364-2.68L27.264,165.76Z"
+            transform="translate(0 -138.533)"
+            fill="#edeef0"
+          />
+        </g>
+      </g>
+    </a>
+  </svg>
+</template>
+
+<style lang="css">
+.NuxtLogo {
+  animation: 1s appear;
+  margin: auto;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+}
+</style>
