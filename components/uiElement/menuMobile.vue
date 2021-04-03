@@ -50,6 +50,7 @@ export default {
         })
         stateMenu.menu[elementSectect.id].state = true;
       }
+      stateMenu.menuHamburgerState = !stateMenu.menuHamburgerState;
       stateMenu.menuMobileState = !stateMenu.menuMobileState;
       this.$store.dispatch("SET_MAINTENANCE", stateMenu);
     },

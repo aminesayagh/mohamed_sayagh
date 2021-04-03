@@ -15,7 +15,7 @@ const database = () => {
                   maintenance: {
                         state: true,
                         menuMobileState: false,
-                        menuHamburgerState: true,
+                        menuHamburgerState: false,
                         buttonNuxt: 'Read more',
                         animation: {
                               state : false,
