@@ -41,7 +41,7 @@
       }
       .button.content {
         .link {
-          @apply text-sm;
+          @apply text-sm md:pb-2;
         }
       }
     }
