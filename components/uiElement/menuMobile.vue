@@ -21,7 +21,7 @@
         @apply hover:text-color_1 text-black_5 tracking-widest;
       }
       li:nth-child(1){
-        @apply pb-6 border-color_2 border-b-2;
+        @apply pb-6 border-color_2 border-b-2 font-extrabold tracking-wider !important;
       }
     }
   }
