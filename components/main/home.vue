@@ -57,7 +57,7 @@
             @apply tracking-widest text-base text-black_1 text-opacity-60;
           }
           h1 {
-            @apply text-4xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-5xl;
+            @apply text-4xl sm:text-4xl md:text-3xl lg:text-4xl xl:text-5xl;
             line-height: 5rem !important;
             @apply -ml-6 md:-ml-10 truncate;
             width: 150%;
