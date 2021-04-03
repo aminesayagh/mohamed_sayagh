@@ -28,8 +28,7 @@
       @apply bg-black_11 rounded-lg shadow-lg px-6 py-5 border-l-8 border-color_1 border-opacity-60;
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(15px);
-      background-color: rgba(255, 255, 255, 0.8);
-      // background-color: rgba(255, 255, 255, 0.6);
+      background-color: rgba(255, 255, 255, 0.85);
       @apply flex flex-col md:flex-row justify-between items-end space-x-2;
       .text-content {
         @apply flex md:flex-row xl:flex-col justify-center items-start md:space-x-2 xl:space-x-0;
