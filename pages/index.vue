@@ -45,6 +45,9 @@ export default {
 
 <style lang="less" scoped>
 @layer components {
+  .container-pop_up{
+    @apply relative;
+  }
   .container-page{
     @apply z-40 overflow-x-hidden pt-2;
     secondeSection {

@@ -46,7 +46,7 @@
         }
       }
       .content.container{
-        @apply max-lg:row-start-6 max-lg:row-span-6 col-start-2 sm:col-start-2 lg:col-start-6 xl:col-start-6 col-span-8 sm:col-span-9 lg:col-span-7 xl:col-span-6;
+        @apply max-lg:row-start-6 max-lg:row-span-6 col-start-2 sm:col-start-2 md:col-start-2 lg:col-start-6 xl:col-start-6 col-span-8 sm:col-span-9 md:col-span-8 lg:col-span-7 xl:col-span-6;
         @apply max-lg:mb-12 ;
         @apply grid grid-cols-12 grid-rows-1;
         .containerElement{
