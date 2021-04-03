@@ -46,7 +46,7 @@ export default {
 <style lang="less" scoped>
 @layer components {
   .container-pop_up{
-    @apply relative;
+    @apply lg:relative;
   }
   .container-page{
     @apply z-40 overflow-x-hidden pt-2;
