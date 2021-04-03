@@ -44,7 +44,7 @@
       }
       .button.content {
         .link {
-          @apply md:pb-2 xl:pb-0 !important;
+          @apply pb-0 !important;
         }
       }
     }
