@@ -71,7 +71,7 @@
             @apply text-justify;
             *{
               font-size: 1.1rem !important;
-              @apply leading-8 md:leading-7 xl:leading-8 !important;
+              @apply leading-8 md:leading-7 2xl:leading-8 !important;
             }
           }
           .button{
