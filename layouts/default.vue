@@ -213,7 +213,8 @@ export default {
             }
             .hamburgerMenu {
               @apply fixed bottom-0 right-0 bg-color_2;
-              @apply pb-6 pt-7 px-4;
+              // @apply pb-6 pt-8 px-4;
+              padding: 2.1rem 1.3rem !important;
             }
             .menuMobile {
               @apply fixed h-full w-full top-0 right-0 left-0 bottom-0;
