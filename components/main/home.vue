@@ -52,6 +52,7 @@
         .containerElement{
           @apply col-start-1 lg:col-start-2 xl:col-start-2 col-span-12 lg:col-span-9 xl:col-span-10;
           @apply text-justify;
+          @apply md:pt-6 xl:pt-0;
           h3 {
             @apply tracking-widest text-base text-black_1 text-opacity-60;
           }
@@ -62,13 +63,15 @@
             width: 150%;
           }
           @media (min-width:768px) and (max-width: 1280px) {
-            line-height: 2rem !important;
+            h1 {
+              line-height: 4rem !important;
+              }
           }
           .content.paragraphe{
             @apply text-justify;
             *{
               font-size: 1.1rem !important;
-              @apply leading-8 md:leading-4 xl:leading-8 !important;
+              @apply leading-8 md:leading-7 xl:leading-8 !important;
             }
           }
           .button{
