@@ -147,6 +147,7 @@ const database = () => {
                   technical_reports,
                   workshops,
                   other_publications,
+                  reviewer_for,
                   pc_member,
                   teaching,
                   other_activities
