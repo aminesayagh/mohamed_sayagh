@@ -31,7 +31,7 @@
       background-color: rgba(255, 255, 255, 0.85);
       @apply flex flex-col lg:flex-row justify-between items-end space-x-2;
       .text-content {
-        @apply flex md:flex-row 2xl:flex-col justify-center items-start md:space-x-2 xl:space-x-0;
+        @apply flex md:flex-row 2xl:flex-col justify-center items-start md:space-x-2 2xl:space-x-0;
         .date {
           @apply text-black_1 text-opacity-50 text-xs md:my-2 !important;
         }
