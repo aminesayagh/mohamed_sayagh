@@ -71,7 +71,8 @@
             @apply text-justify;
             *{
               font-size: 1.1rem !important;
-              @apply leading-8 md:leading-7 2xl:leading-8 !important;
+              @apply max-md:leading-8 2xl:leading-8 !important;
+              line-height: 1.85rem !important;
             }
           }
           .button{
