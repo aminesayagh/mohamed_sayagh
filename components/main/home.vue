@@ -40,7 +40,7 @@
         .image.sous-container{
           @apply grid grid-cols-12 grid-rows-1;
           .image.cadre{
-            @apply col-start-1 col-span-10 sm:col-span-7 lg:col-start-3 lg:col-span-10;
+            @apply col-start-1 col-span-10 sm:col-span-7 lg:col-start-3 lg:col-span-9;
           }
           @apply sm:-ml-8 lg:ml-0;
         }
